@@ -1,0 +1,304 @@
+<html>
+<head>
+    <title>Error 404 page not found</title>
+    <link rel="icon" href="cont.png">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Full-width input fields */
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        /* Set a style for all buttons */
+        button {
+            background-color: #04AA6D;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+            button:hover {
+                opacity: 0.8;
+            }
+
+        /* Extra styles for the cancel button */
+        .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            background-color: #f44336;
+        }
+
+        /* Center the image and position the close button */
+        .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+            position: relative;
+        }
+
+        img.avatar {
+            width: 40%;
+            border-radius: 50%;
+        }
+
+        .container {
+            padding: 16px;
+        }
+
+        span.psw {
+            float: right;
+            padding-top: 16px;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+            padding-top: 60px;
+        }
+
+        /* Modal Content/Box */
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border: 1px solid #888;
+            width: 80%; /* Could be more or less, depending on screen size */
+        }
+
+        /* The Close Button (x) */
+        .close {
+            position: absolute;
+            right: 25px;
+            top: 0;
+            color: #000;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+            .close:hover,
+            .close:focus {
+                color: red;
+                cursor: pointer;
+            }
+
+        /* Add Zoom Animation */
+        .animate {
+            -webkit-animation: animatezoom 0.6s;
+            animation: animatezoom 0.6s
+        }
+
+        @-webkit-keyframes animatezoom {
+            from {
+                -webkit-transform: scale(0)
+            }
+
+            to {
+                -webkit-transform: scale(1)
+            }
+        }
+
+        @keyframes animatezoom {
+            from {
+                transform: scale(0)
+            }
+
+            to {
+                transform: scale(1)
+            }
+        }
+
+        /* Change styles for span and cancel button on extra small screens */
+        @media screen and (max-width: 300px) {
+            span.psw {
+                display: block;
+                float: none;
+            }
+
+            .cancelbtn {
+                width: 100%;
+            }
+        }
+
+        body {
+            background: url(bg2.jpeg);
+            background-repeat: repeat;
+            background-size: auto;
+        }
+
+        img {
+            width: 50%;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="about.html" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="avatar.jpeg" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+
+    <script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+    </script>
+    <div>
+        <img src="maintxt.png">
+    </div>
+    <div style="color:rgb(255, 255, 255)">We all know that there are a lot of good video games out there but which one are the best to just sit and play in your free time?</div>
+    <br>
+    <h1 style="color:red">WARNING</h1>
+    <h5 style="color:white">This may not include mobile and console games or games i don't know AND all of games are rated in my opinion.</h5>
+    <div>
+        <img src="10.png">
+    </div>
+    <div>
+        <img src="cs2.jpeg" height="400" width="100">
+    </div>
+    <div style="color:white">Counter-Strike 2 (CS2) is a 2023 multiplayer tactical first-person shooter game developed and published by Valve. It is the fifth main installment of the Counter-Strike series. Developed as an updated version of the previous main entry, Counter-Strike: Global Offensive (2012), it was announced on March 22, 2023 and was released on September 27, 2023, replacing Global Offensive on Steam.</div>
+    <br>
+    <div style="color:white">I personaly play it with friends or just when i am bored. The game is cool but there are toxic players out there so careful while playing it.</div>
+    <div>
+        <img src="9.png">
+    </div>
+    <div>
+        <img src="dst.jpeg" height="400" width="100">
+    </div>
+    <div style="color:white">Don't Starve Together is the sequel to Don't Starve, and features the requested multiplayer mechanics. It was originally scheduled to come out in Summer 2014, though a specific date was not given. However, sign-ups for a limited-access, closed Beta were released. It came out on Mac and Linux after being finalized on Windows.</div>
+    <br>
+    <div style="color:white">I personaly play it with friends or just when i am bored. The game is cool with so many unique recipes and bosses. I play it but usually not more than an hour. ALSO this game isn't free.</div>
+    <div>
+        <img src="8.png">
+    </div>
+    <div>
+        <img src="m.jpeg" height="400" width="100">
+    </div>
+    <br>
+    <div style="color:white">Minecraft is a sandbox game developed by Mojang Studios and originally released in 2009. The game was created by Markus "Notch" Persson in the Java programming language. Following several early private testing versions, it was first made public in May 2009 before being fully released in November 2011, with Notch stepping down and Jens "Jeb" Bergensten taking over development. Minecraft has become the best-selling video game in history, with over 300 million copies sold and nearly 140 million monthly active players as of 2023. It has been ported to several platforms.</div>
+    <br>
+    <div style="color:white">I personaly play it with friends or just when i am bored. The game is cool but there are not a lot of bosses and their dev team(Mojang) is lazy to make updates which takes them A YEAR to add 1-5 mobs. But if you ignore that fact, the game is cool.</div>
+    <div>
+        <img src="7.png">
+    </div>
+    <div>
+        <img src="bms.jpeg" height="400" width="100">
+    </div>
+    <br>
+    <div style="color:white">Bloons Monkey City is an early adaptation of the standard mobile game adapted for computers, released on 10th April 2020, for both Windows and Macintosh. Unlike other games of the BTD5 generation, this version of Bloons Monkey City is only playable on computers running newer operating systems. It can be played on macOS Catalina and later, as it is 64-bit.</div>
+    <br>
+    <div style="color:white">I personaly play it when i am bored. The game is cool and all of the difrent monkeys you can unlock make game more of a strategy. But there are a lot of in game purchases. If they would have removed them it would be better. But it's a free to play game so it all makes sense.</div>
+    <div>
+        <img src="6.png">
+    </div>
+    <div>
+        <img src="PVZ.jpeg" height="400" width="100">
+    </div>
+    <br>
+    <div style="color:white">Plants vs. Zombies (abbreviated as PvZ) is a tower defense video game developed and originally published by PopCap Games and it is the first installment in the Plants vs. Zombies series. The game involves homeowners who use a variety of different plants to prevent waves of zombies from entering their houses and "eating their brains".</div>
+    <br>
+    <div style="color:white">I personaly haven't played it in a very long time. And no I'm only talking about the first one. It is cool and hard with some levels, but i only did the first circle not the second one, yet...</div>
+    <div>
+        <img src="5.png">
+    </div>
+    <div>
+        <img src="gd.jpeg" height="400" width="100">
+    </div>
+    <br>
+    <div style="color:white">Geometry Dash is a series of side scrolling music platforming video games developed by Swedish developer Robert "RobTop" Topala. The game was released on 13 August 2013 on iOS and Android, and the Steam version on 22 December 2014. In Geometry Dash, players control the movement of an icon and navigate along music-based levels, while avoiding obstacles such as spikes that instantly destroy the icon on impact.</div>
+    <br>
+    <div style="color:white">I personaly play it on phone but i belive soon i will buy it. The game is cool, could be hard or easy, and you can make your own custom levels. But the fact that RobTop promissed us an update and we still haven't got it. I belive soon we will, we just have to be patient.</div>
+    <div>
+        <img src="4.png">
+    </div>
+    <div>
+        <img src="hl.jpeg" height="400" width="100">
+    </div>
+    <br>
+    <div style="color:white">Half-Life is a 1998 first-person shooter (FPS) game developed by Valve Corporation and published by Sierra Studios for Windows. It was Valve's debut product and the first game in the Half-Life series. The player assumes the role of Gordon Freeman, a scientist who must escape the Black Mesa Research Facility after it is invaded by aliens following a disastrous scientific experiment. The gameplay consists of combat, exploration and puzzles.</div>
+    <br>
+    <div style="color:white">I personaly play it alone but with their 25th aniversery now i play it also with my friend. The game is cool and epic. Has lore. And also it is FREE FOR A LIMMITED TIME. So get it while you can.</div>
+    <div>
+        <img src="3.png">
+    </div>
+    <div>
+        <img src="fnaf.png" height="400" width="100">
+    </div>
+    <br>
+    <div style="color:white">Five Nights at Freddy's is an indie point-and-click survival horror video game and the first installment of the series developed by Scott Cawthon. It was first released on IndieDB as a demo on July 24, 2014 before the full game was released on August 8, 2014 (although it was ultimately removed at an unknown date), and released on Steam on August 18, 2014. The goal for the player is to survive five nights at Freddy Fazbear's Pizza while avoiding getting caught and stuffed into a mascot costume, thus getting killed by the animatronic characters; this is done by tracking their movements via the restaurant's security cameras. </div>
+    <br>
+    <div style="color:white">I love this game. I am bad/good at it, depends one what FNAF like i am good at FNAF 1 but not FNAF 2. It is good for free time, and during some scary events, for example if the lights are out and you have it on your phone, you know what to do.</div>
+    <div>
+        <img src="2.png">
+    </div>
+    <div>
+        <img src="tf2.jpeg" height="400" width="100">
+    </div>
+    <br>
+    <div style="color:white">Team Fortress 2 is a 2007 multiplayer first-person shooter game developed and published by Valve Corporation. It is the sequel to the 1996 Team Fortress mod for Quake and its 1999 remake, Team Fortress Classic. The game was released in October 2007 as part of The Orange Box for Windows and the Xbox 360, and ported to the PlayStation 3 in December 2007. It was released as a standalone game for Windows in April 2008, and updated to support Mac OS X in June 2010 and Linux in February 2013. It is distributed online through Valve's digital retailer Steam, with Electronic Arts managing retail and console editions.</div>
+    <br>
+    <div style="color:white">I play it on my free time. I hardly ever get a chance to play with some of my friends so i usually play casual. Also this game is free, but almost pay2win. I still love it.</div>
+    <div>
+        <img src="1.png">
+    </div>
+    <div>
+        <img src="t.jpeg" height="400" width="100">
+    </div>
+    <br>
+    <div style="color:white">Terraria is a 2011 action-adventure sandbox game developed by Re-Logic. The game was first released for Windows and has since been ported to other PC and console platforms. The game features exploration, crafting, building, painting, and combat with a variety of creatures in a procedurally generated 2D world. Terraria received generally positive reviews and sold over 44 million copies by 2022, making it one of the best-selling video games.</div>
+    <br>
+    <div style="color:white">I love this game. I think 330 hours speek for them self. I also sometimes play with my friend/friends. But i sometimes play tModLoader (Terraria but with mods). Terraria isn't free, but if you're looking for a game to waste a bit of money = you just found it.</div>
+</html>
